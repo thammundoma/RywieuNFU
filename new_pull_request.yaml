@@ -12,5 +12,4 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.8.1
         with:
           project: oss-delta-prs
-          column: Needs Review
           repo-token: ${{ secrets.PROJECT_BOARD_AUTOMATION_TOKEN }}
